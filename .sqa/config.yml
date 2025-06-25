@@ -15,50 +15,50 @@ sqa_criteria:
     repos:
       gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/esp_listener git:
         commands:
-        - /usr/bin/env sh .sqa/script.randy-myrtle-setter.sh
-        container: qc.acc_gummy-apricot-retriever
+        - /usr/bin/env sh .sqa/script.hasty-denim-armadillo.sh
+        container: qc.acc_stealthy-ivory-numbat
   QC.Doc:
     repos:
       gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/esp_listener find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.baggy-platinum-beagle.sh
-        container: qc.doc_silly-buff-lion
+        - /usr/bin/env sh .sqa/script.sleazy-russet-ant.sh
+        container: qc.doc_stinky-turquoise-quail
       gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/esp_listener git:
         commands:
-        - /usr/bin/env sh .sqa/script.shaggy-scarlet-chinchilla.sh
-        container: qc.doc_cheeky-goldenrod-numbat
+        - /usr/bin/env sh .sqa/script.beady-cerulean-blue.sh
+        container: qc.doc_boozy-beige-kangaroo
       gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/esp_listener markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.sloppy-gold-pinscher.sh
-        container: qc.doc_shaky-brass-duck
+        - /usr/bin/env sh .sqa/script.muggy-indigo-zonkey.sh
+        container: qc.doc_cloudy-chocolate-setter
   QC.Lic:
     repos:
       gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/esp_listener licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.chewy-buff-chihuahua.sh
-        container: qc.lic_slaphappy-russet-chin
+        - /usr/bin/env sh .sqa/script.muggy-flax-owl.sh
+        container: qc.lic_woolly-apricot-squid
   QC.Sec:
     repos:
       gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/esp_listener bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.goopy-violet-dhole.sh
-        container: qc.sec_blurry-saffron-penguin
+        - /usr/bin/env sh .sqa/script.snazzy-chocolate-butterfly.sh
+        container: qc.sec_cranky-salmon-woodpecker
   QC.Sty:
     repos:
       gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/esp_listener flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.wimpy-burgundy-zonkey.sh
-        container: qc.sty_droopy-goldenrod-dugong
+        - /usr/bin/env sh .sqa/script.skimpy-scarlet-moose.sh
+        container: qc.sty_beady-cerulean-chimpanzee
   QC.Uni:
     repos:
       gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/esp_listener pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.squirrely-gold-bird.sh
-        container: qc.uni_goopy-violet-ray
+        - /usr/bin/env sh .sqa/script.fuzzy-black-meerkat.sh
+        container: qc.uni_seedy-champagne-chinchilla
   QC.Ver:
     repos:
       gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/esp_listener get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.blurry-cobalt-okapi.sh
-        container: qc.ver_hilly-green-squid
+        - /usr/bin/env sh .sqa/script.leaky-beige-binturong.sh
+        container: qc.ver_snappy-cinnabar-quoll
 timeout: 5400
